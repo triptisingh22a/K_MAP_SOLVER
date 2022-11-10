@@ -181,4 +181,5 @@ else:
 
 if st.sidebar.button("Simplify"):
     inp3_k_map(mt, mima)
-    font = "sans serif"
+    font = "Times New roman"
+    st.markdown('<style>body{background-color: green;}</style>',unsafe_allow_html=True)
